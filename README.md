@@ -1,92 +1,49 @@
-<!-- ████████████████████████████████████████████████████████████████████████████████ -->
-<!-- ██                   AKASH U — GitHub Profile README                         ██ -->
-<!-- ████████████████████████████████████████████████████████████████████████████████ -->
+<!-- ╔══════════════════════════════════════════════════════════════════════════╗ -->
+<!-- ║           AKASH U — GitHub Profile README  (uakash07)                  ║ -->
+<!-- ║  HOW TO USE: commit the entire folder contents to your uakash07 repo   ║ -->
+<!-- ║  The SVG files (banner.svg, typing.svg) must live next to README.md    ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════════════════╝ -->
 
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!--  SECTION 1 · HERO BANNER  (inline SVG — zero external dependency)             -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════ -->
+<!--  SECTION 1 · HERO BANNER  (animated SVG — local file) -->
+<!-- ══════════════════════════════════════════════════════ -->
 
-<p align="center">
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%"   stop-color="#0f0c29"/>
-      <stop offset="50%"  stop-color="#1a1a4e"/>
-      <stop offset="100%" stop-color="#0d1b2a"/>
-    </linearGradient>
-    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#70A5FD" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#BF91F3" stop-opacity="0.3"/>
-    </linearGradient>
-    <linearGradient id="wave2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#BF91F3" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#70A5FD" stop-opacity="0.2"/>
-    </linearGradient>
-  </defs>
-  <!-- Background -->
-  <rect width="900" height="200" fill="url(#bg)" rx="0"/>
-  <!-- Wave bottom layer -->
-  <path d="M0,160 C150,120 300,180 450,150 C600,120 750,170 900,140 L900,200 L0,200 Z" fill="url(#wave2)"/>
-  <!-- Wave top layer -->
-  <path d="M0,175 C120,145 280,195 450,165 C620,135 780,185 900,155 L900,200 L0,200 Z" fill="url(#wave1)"/>
-  <!-- Decorative dots -->
-  <circle cx="60"  cy="40" r="2" fill="#70A5FD" opacity="0.5"/>
-  <circle cx="840" cy="35" r="2" fill="#BF91F3" opacity="0.5"/>
-  <circle cx="120" cy="70" r="1.5" fill="#70A5FD" opacity="0.4"/>
-  <circle cx="780" cy="65" r="1.5" fill="#BF91F3" opacity="0.4"/>
-  <!-- Name -->
-  <text x="450" y="88" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-        font-size="52" font-weight="800" letter-spacing="6"
-        fill="white" opacity="1">AKASH U</text>
-  <!-- Tagline -->
-  <text x="450" y="122" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-        font-size="15" font-weight="400" letter-spacing="1.5"
-        fill="#A8C8FF" opacity="0.9">AI &amp; Data Science Engineer  ·  Turning Raw Data into Real Decisions</text>
-  <!-- Bottom accent line -->
-  <line x1="340" y1="138" x2="560" y2="138" stroke="#70A5FD" stroke-width="1.5" opacity="0.5"/>
-</svg>
-</p>
+<div align="center">
+  <img src="./banner.svg" width="100%" alt="Akash U — AI & Data Science Engineer"/>
+</div>
 
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!--  SECTION 2 · TYPING HEADER                                                    -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════ -->
+<!--  SECTION 2 · TYPING TERMINAL  (animated SVG — local)  -->
+<!-- ══════════════════════════════════════════════════════ -->
 
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=800&lines=👋+Hey+there!+I'm+Akash+U;🤖+AI+%26+Data+Science+Engineer+%7C+Chennai%2C+India;📊+Formula+1+Telemetry+%7C+ML+%7C+GenAI+APIs;🚀+Building+Data-Driven+Solutions+that+Scale;💡+FastAPI+%7C+React.js+%7C+Python+%7C+SQL" alt="Typing SVG" />
-  </a>
-</p>
+<div align="center">
+  <img src="./typing.svg" width="100%" alt="Typing animation"/>
+</div>
 
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!--  SOCIAL BADGES                                                                 -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════ -->
+<!--  SOCIAL LINKS                                          -->
+<!-- ══════════════════════════════════════════════════════ -->
 
-<p align="center">
-  <a href="mailto:akashu0713@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail"/>
-  </a>
-  <a href="https://www.linkedin.com/in/uakash07">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://github.com/uakash07">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="https://www.leetcode.com/U_Akash_07">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black" alt="LeetCode"/>
-  </a>
-  <a href="https://www.codechef.com/users/uakash07">
-    <img src="https://img.shields.io/badge/CodeChef-5B4638?style=flat-square&logo=codechef&logoColor=white" alt="CodeChef"/>
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=uakash07&style=flat-square&color=70A5FD" alt="Profile Views"/>
-</p>
+<div align="center">
+
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akashu0713@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/uakash07)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/uakash07)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://www.leetcode.com/U_Akash_07)
+[![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/uakash07)
+![Profile Views](https://komarev.com/ghpvc/?username=uakash07&style=for-the-badge&color=70A5FD&label=PROFILE+VIEWS)
+
+</div>
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!--  SECTION 3 · CODE-BLOCK ABOUT ME                                              -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+---
 
-<img align="right" width="380" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="Coder GIF"/>
+<!-- ══════════════════════════════════════════════════════ -->
+<!--  SECTION 3 · CODE-BLOCK ABOUT ME                      -->
+<!-- ══════════════════════════════════════════════════════ -->
+
+<img align="right" width="360" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="Coding GIF"/>
 
 ```python
 # ╔══════════════════════════════════════╗
@@ -95,11 +52,11 @@
 
 class AkashU:
 
-    name          = "Akash U"
-    location      = "Chennai, Tamil Nadu, India 🇮🇳"
-    degree        = "B.Tech — AI & Data Science"
-    college       = "Chennai Institute of Technology"
-    cgpa          = 7.6 / 10
+    name     = "Akash U"
+    location = "Chennai, Tamil Nadu, India 🇮🇳"
+    degree   = "B.Tech — AI & Data Science"
+    college  = "Chennai Institute of Technology"
+    cgpa     = 7.6
 
     stack = [
         "Python", "Java", "SQL",
@@ -108,135 +65,135 @@ class AkashU:
         "MySQL", "MongoDB",
     ]
 
+    genai = [
+        "OpenAI API", "Google Gemini API",
+        "Claude AI", "RAG Basics",
+        "Prompt Engineering",
+    ]
+
     currently_learning = [
-        "LLM Fine-Tuning & RAG Pipelines",
-        "Advanced MLOps Workflows",
-        "Cloud Deployments (AWS / GCP)",
+        "LLM Fine-Tuning",
+        "MLOps & Cloud Deployments",
+        "Advanced RAG Pipelines",
     ]
 
     fun_fact = (
-        "I analyse F1 telemetry for fun 🏎️ "
-        "and once predicted race strategies "
-        "before the pit-wall did."
+        "I predict F1 race strategies 🏎️  "
+        "before the pit-wall does — using "
+        "telemetry data & Python."
     )
 
-    def motto(self):
-        return "Data speaks — I make sure people listen."
+    def motto(self) -> str:
+        return "Data speaks. I make sure people listen."
 ```
 
 <br clear="right"/>
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!--  SECTION 4 · TECH BADGES                                                      -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════ -->
+<!--  SECTION 4 · TECH STACK BADGES                        -->
+<!-- ══════════════════════════════════════════════════════ -->
 
 ## 🛠️ Tech Stack
 
-### 🗣️ Languages
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
-</p>
+**Languages**
 
-### 🤖 AI / ML / Data
-<p>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FastF1-FF1E00?style=flat-square&logo=f1&logoColor=white"/>
-  <img src="https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Gemini_API-4285F4?style=flat-square&logo=google&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Claude_AI-CC785C?style=flat-square&logo=anthropic&logoColor=white"/>
-  <img src="https://img.shields.io/badge/RAG_Basics-FF6B6B?style=flat-square&logo=bookstack&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Prompt_Engineering-10A37F?style=flat-square&logo=openai&logoColor=white"/>
-</p>
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-### ⚙️ Frameworks & Backend
-<p>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-</p>
+**AI · ML · Data**
 
-### 🗄️ Databases
-<p>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
-</p>
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini_API-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude_AI-CC785C?style=for-the-badge&logo=anthropic&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG_Pipelines-FF6B6B?style=for-the-badge&logo=bookstack&logoColor=white)
 
-### 🧰 Tools & Platforms
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Fusion_360-FF6900?style=flat-square&logo=autodesk&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SolidWorks-FF0000?style=flat-square&logo=dassaultsystemes&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white"/>
-</p>
+**Frameworks & Backend**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![React](https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+
+**Databases**
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+
+**Tools & Platforms**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Fusion360](https://img.shields.io/badge/Fusion_360-FF6900?style=for-the-badge&logo=autodesk&logoColor=white)
+![SolidWorks](https://img.shields.io/badge/SolidWorks-FF0000?style=for-the-badge&logo=dassaultsystemes&logoColor=white)
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!--  SECTION 5 · GITHUB STATS TRIPTYCH                                            -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════ -->
+<!--  SECTION 5 · GITHUB STATS                             -->
+<!-- ══════════════════════════════════════════════════════ -->
 
 ## 📊 GitHub Stats
 
-<!-- Stats card — anuraghazra with cache busting for reliability -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=uakash07&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=70A5FD&icon_color=BF91F3&text_color=C9D1D9&rank_icon=github&cache_seconds=86400" height="180" alt="Akash's GitHub Stats"/>
-  &nbsp;
-  <!-- Streak — demolab.com (same infrastructure as the working typing SVG above) -->
-  <img src="https://streak-stats.demolab.com?user=uakash07&theme=tokyonight&hide_border=true&background=0D1117&stroke=70A5FD&ring=70A5FD&fire=BF91F3&currStreakLabel=BF91F3&dates=C9D1D9&sideLabels=C9D1D9" height="180" alt="Akash's GitHub Streak"/>
-</p>
+<div align="center">
 
-<!-- Top Languages -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=uakash07&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=70A5FD&text_color=C9D1D9&langs_count=8&cache_seconds=86400" height="170" alt="Top Languages"/>
-</p>
+<img src="https://github-readme-stats.vercel.app/api?username=uakash07&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=70A5FD&icon_color=BF91F3&text_color=C9D1D9&rank_icon=github&cache_seconds=86400" height="175" alt="GitHub Stats"/>
+&nbsp;&nbsp;
+<img src="https://streak-stats.demolab.com?user=uakash07&theme=tokyonight&hide_border=true&background=0D1117&stroke=70A5FD&ring=70A5FD&fire=BF91F3&currStreakLabel=BF91F3&dates=C9D1D9&sideLabels=C9D1D9&cache_seconds=86400" height="175" alt="GitHub Streak"/>
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=uakash07&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=70A5FD&text_color=C9D1D9&langs_count=8&cache_seconds=86400" height="160" alt="Top Languages"/>
+
+</div>
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!--  SECTION 6 · PROFESSIONAL EXPERIENCE TIMELINE                                 -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════ -->
+<!--  SECTION 6 · EXPERIENCE TIMELINE                      -->
+<!-- ══════════════════════════════════════════════════════ -->
 
 ## 💼 Professional Experience
 
 ```
-┌──────────────────────────────────────────────────────────────────────────┐
-│  🏛️  3D Design Intern — DDMRC, IIT Madras            May–Jun 2025        │
-│  ─────────────────────────────────────────────────────────────────────── │
-│  ▸ Designed 3D CAD models of mechanical components & assemblies           │
-│  ▸ Tools: Fusion 360, SolidWorks                                          │
-│  ▸ Rapid prototyping, tolerancing & engineering design workflows          │
-├──────────────────────────────────────────────────────────────────────────┤
-│  📈  Data Analyst Intern — DLK Technologies Pvt. Ltd.  Nov–Dec 2024      │
-│  ─────────────────────────────────────────────────────────────────────── │
-│  ▸ Analysed large-scale F1 race & telemetry data (Python, Pandas, Plotly) │
-│  ▸ Automated data-cleaning pipelines → faster reporting cycles            │
-│  ▸ Interactive dashboards: lap times · driver performance · strategy      │
-├──────────────────────────────────────────────────────────────────────────┤
-│  🌐  Web Development Intern — Codsoft               May–Jun 2024         │
-│  ─────────────────────────────────────────────────────────────────────── │
-│  ▸ Built responsive web calculator (HTML, CSS, JS)                        │
-│  ▸ Real-time calculation · input validation · cross-browser compatibility │
-└──────────────────────────────────────────────────────────────────────────┘
+ ┌─────────────────────────────────────────────────────────────────────────┐
+ │  🏛️  3D DESIGN INTERN — DDMRC, IIT Madras             May–Jun 2025     │
+ ├─────────────────────────────────────────────────────────────────────────┤
+ │  ▸ CAD modelling of mechanical assemblies (Fusion 360, SolidWorks)      │
+ │  ▸ Rapid prototyping · tolerancing · engineering design workflows       │
+ │  ▸ Iterative design refinement with research team validation            │
+ └─────────────────────────────────────────────────────────────────────────┘
+ ┌─────────────────────────────────────────────────────────────────────────┐
+ │  📈  DATA ANALYST INTERN — DLK Technologies Pvt. Ltd.  Nov–Dec 2024    │
+ ├─────────────────────────────────────────────────────────────────────────┤
+ │  ▸ Analysed large-scale F1 race & telemetry data (Python, Pandas)       │
+ │  ▸ Automated data-cleaning pipelines → faster reporting cycles          │
+ │  ▸ Interactive Plotly dashboards: lap times · strategy · performance    │
+ └─────────────────────────────────────────────────────────────────────────┘
+ ┌─────────────────────────────────────────────────────────────────────────┐
+ │  🌐  WEB DEVELOPMENT INTERN — Codsoft                  May–Jun 2024    │
+ ├─────────────────────────────────────────────────────────────────────────┤
+ │  ▸ Built responsive calculator (HTML · CSS · JavaScript)               │
+ │  ▸ Real-time calculation · input validation · cross-browser support     │
+ └─────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!--  SECTION 7 · FEATURED PROJECTS                                                -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════ -->
+<!--  SECTION 7 · FEATURED PROJECTS                        -->
+<!-- ══════════════════════════════════════════════════════ -->
 
 ## 🚀 Featured Projects
 
@@ -244,48 +201,44 @@ class AkashU:
 <tr>
 <td width="50%" valign="top">
 
-### 🚗 Telemetry-Based Driver Behavior & Risk Profiling
-> *Machine Learning · Time-Series · Data Pipelines*
+### 🚗 Telemetry Driver Risk Profiling
+> `Python` `Scikit-Learn` `Pandas` `FastAPI`
 
-Built an ML-powered analytics system that ingests raw vehicle telemetry—speed, braking patterns, RPM—and classifies driving behavior into risk categories. Engineered end-to-end data pipelines with predictive models for driver risk scoring.
+ML-powered system that ingests raw vehicle telemetry — speed, braking, RPM — and classifies driving into risk categories. End-to-end data pipelines with predictive models for real-time risk scoring.
 
-**Stack:** `Python` `Scikit-Learn` `Pandas` `FastAPI`  
-**Impact:** Improved risk-scoring accuracy through feature engineering on real-time time-series signals
+**Key:** Time-series signal analysis · Feature engineering · Risk classification
 
 </td>
 <td width="50%" valign="top">
 
-### 🔋 EV Battery Health Prediction Model
-> *Predictive ML · Feature Engineering · Energy Analytics*
+### 🔋 EV Battery Health Prediction
+> `Python` `Pandas` `Scikit-Learn` `Plotly`
 
-Developed a predictive model to estimate EV battery degradation and efficiency from historical charge cycles, temperature variations, and usage patterns. Enabled early-warning detection of battery health decline.
+Predictive model estimating EV battery degradation from charge cycles, temperature, and usage patterns. Early-warning detection of health decline for data-driven energy management.
 
-**Stack:** `Python` `Pandas` `Scikit-Learn` `Plotly`  
-**Impact:** Data-driven energy management with improved degradation forecasting accuracy
+**Key:** Degradation forecasting · Feature extraction · Energy analytics
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🏎️ Formula 1 Telemetry Analysis Pipeline
-> *Data Analytics · FastF1 · Interactive Dashboards*
+### 🏎️ Formula 1 Telemetry Analysis
+> `Python` `FastF1` `Pandas` `Plotly`
 
-Built a full data analytics pipeline using Python, Pandas, Plotly, and FastF1 to process large-scale F1 race telemetry. Analysed lap times, tyre degradation, pit stop strategies, and driver comparisons with interactive visualisations.
+Full analytics pipeline on large-scale F1 race telemetry. Lap time analysis, tyre degradation, pit-stop strategy modelling, and interactive driver-comparison dashboards.
 
-**Stack:** `Python` `FastF1` `Pandas` `Plotly`  
-**Impact:** Actionable race strategy insights through time-series analysis & dashboard storytelling
+**Key:** Race strategy insights · Time-series · Interactive viz
 
 </td>
 <td width="50%" valign="top">
 
 ### 🌐 Responsive Web Calculator
-> *Frontend Development · DOM Manipulation*
+> `HTML5` `CSS3` `JavaScript`
 
-Developed a responsive browser-based calculator with real-time calculation functionality, robust input validation, error handling, and cross-browser compatibility — polished to a production-ready standard.
+Production-ready browser calculator with real-time computation, robust input validation, error handling, and full cross-browser responsive design.
 
-**Stack:** `HTML5` `CSS3` `JavaScript`  
-**Impact:** Clean, accessible UI with full DOM event handling and cross-device responsiveness
+**Key:** DOM manipulation · Input validation · UX polish
 
 </td>
 </tr>
@@ -293,124 +246,96 @@ Developed a responsive browser-based calculator with real-time calculation funct
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!--  SECTION 8 · ACHIEVEMENTS & COMPETITIVE CODING                                -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════ -->
+<!--  SECTION 8 · ACHIEVEMENTS                             -->
+<!-- ══════════════════════════════════════════════════════ -->
 
-## 🏆 Achievements
+## 🏆 Achievements & Competitive Coding
 
-<p align="center">
-  <a href="https://leetcode.com/U_Akash_07/">
-    <img src="https://leetcard.jacoblin.cool/U_Akash_07?theme=dark&font=Fira%20Code&ext=heatmap&border=0" width="450" alt="LeetCode Stats"/>
-  </a>
-</p>
+<div align="center">
 
-| Platform | Achievement |
-|---|---|
-| 🟡 **LeetCode** | Solved **250+ problems** · Contest Rating **1785** · Top **~10%** globally |
-| 🟤 **CodeChef** | Solved **50+ problems** across competitive programming challenges |
-| 🏛️ **IIT Madras** | Selected for research internship at DDMRC — Design & Digital Manufacturing Research Centre |
+| 🏅 Platform | Achievement |
+|:---|:---|
+| 🟡 **LeetCode** | **250+ problems solved** · Contest Rating **1785** · Top **~10%** globally |
+| 🟤 **CodeChef** | **50+ problems** across competitive challenges |
+| 🏛️ **IIT Madras** | Selected intern at **DDMRC** (Design & Digital Manufacturing Research Centre) |
+
+</div>
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!--  SECTION 9 · EDUCATION                                                        -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════ -->
+<!--  SECTION 9 · EDUCATION                                -->
+<!-- ══════════════════════════════════════════════════════ -->
 
 ## 🎓 Education
 
-<table>
-<tr>
-<td>
-
-**🏫 Chennai Institute of Technology** · Chennai, India  
-`B.Tech — Artificial Intelligence & Data Science (AI&DS)`  
-📅 2022 – 2026 (Expected)  
-📊 CGPA: **7.6 / 10**
-
-</td>
-</tr>
-</table>
+**Chennai Institute of Technology** · Chennai, India
+`B.Tech — Artificial Intelligence & Data Science (AI&DS)` · 2022–2026 · CGPA **7.6 / 10**
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!--  SECTION 10 · CERTIFICATIONS                                                  -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════ -->
+<!--  SECTION 10 · CERTIFICATIONS                          -->
+<!-- ══════════════════════════════════════════════════════ -->
 
 ## 📜 Certifications
 
 | Issuer | Certificate |
-|---|---|
-| 🌐 **CISCO Networking Academy** | Introduction to Cybersecurity |
-| 🌐 **CISCO Networking Academy** | Data Science Foundations |
+|:---|:---|
+| 🔵 **CISCO Networking Academy** | Introduction to Cybersecurity |
+| 🔵 **CISCO Networking Academy** | Data Science Foundations |
 | 🟢 **Great Learning** | Introduction to Data Science |
 | 🟢 **Great Learning** | Cybersecurity Essentials |
 | 🌍 **WorldQuant University** | Applied Data Science Lab |
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!--  SECTION 11 · ACTIVITY GRAPH                                                  -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════ -->
+<!--  SECTION 11 · ACTIVITY GRAPH                          -->
+<!-- ══════════════════════════════════════════════════════ -->
 
-## 📈 Contribution Activity
+## 📈 Contribution Graph
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=uakash07&theme=tokyo-night&bg_color=0D1117&color=70A5FD&line=BF91F3&point=70A5FD&area=true&hide_border=true" width="100%" alt="Contribution Graph"/>
-</p>
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=uakash07&theme=tokyo-night&bg_color=0D1117&color=70A5FD&line=BF91F3&point=70A5FD&area=true&hide_border=true&cache_seconds=86400" width="100%" alt="Activity Graph"/>
+</div>
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!--  SECTION 12 · VOLUNTEERING & LEADERSHIP                                       -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════ -->
+<!--  SECTION 12 · VOLUNTEERING                            -->
+<!-- ══════════════════════════════════════════════════════ -->
 
-## 🤝 Volunteering & Leadership
+## 🤝 Leadership & Volunteering
 
 | Role | Details |
-|---|---|
-| 🎪 **Sponsorship Team Member** | College Cultural Fest & Department Events · 2023–2026 · Acquisition & coordination of event funding |
-| 👑 **House Captain** | School Leadership Role · 2 consecutive years · Led student teams, organised activities, built team management skills |
+|:---|:---|
+| 🎪 **Sponsorship Coordinator** | College Cultural Fest & Dept Events · 2023–2026 |
+| 👑 **House Captain** | School · 2 consecutive years · Team leadership |
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!--  SECTION 13 · FOOTER WAVE                                                     -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════ -->
+<!--  SECTION 13 · FOOTER                                  -->
+<!-- ══════════════════════════════════════════════════════ -->
 
-<p align="center">
-  <i>"Data speaks — I make sure people listen."</i>
-  <br/>
-  <br/>
-  <b>Let's build something data-driven together 🚀</b>
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="mailto:akashu0713@gmail.com">
-    <img src="https://img.shields.io/badge/📧_Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/uakash07">
-    <img src="https://img.shields.io/badge/🔗_Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-</p>
+<br/>
 
-<p align="center">
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="120" viewBox="0 0 900 120">
-  <defs>
-    <linearGradient id="footerbg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%"   stop-color="#0d1b2a"/>
-      <stop offset="50%"  stop-color="#1a1a4e"/>
-      <stop offset="100%" stop-color="#0f0c29"/>
-    </linearGradient>
-  </defs>
-  <rect width="900" height="120" fill="url(#footerbg)"/>
-  <path d="M0,0 C150,40 300,10 450,30 C600,50 750,15 900,35 L900,0 Z" fill="#0D1117" opacity="0.5"/>
-  <path d="M0,0 C200,50 400,20 600,40 C750,55 850,25 900,45 L900,0 Z" fill="#70A5FD" opacity="0.08"/>
-</svg>
-</p>
+*"Data speaks — I make sure people listen."*
 
-<!-- ████████████████████████████████████████████████████████████████████████████████ -->
-<!-- ██  Made with ❤️ by Akash U · github.com/uakash07                            ██ -->
-<!-- ████████████████████████████████████████████████████████████████████████████████ -->
+<br/>
+
+[![Email](https://img.shields.io/badge/📧_akashu0713@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akashu0713@gmail.com)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/Let's_Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/uakash07)
+
+<br/>
+
+![Wave](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer)
+
+</div>
+
+<!-- Made with ❤️ by Akash U · github.com/uakash07 -->
