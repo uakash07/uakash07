@@ -1,29 +1,22 @@
 <!-- ╔══════════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║           AKASH U — GitHub Profile README  (uakash07)                  ║ -->
-<!-- ║  HOW TO USE: commit the entire folder contents to your uakash07 repo   ║ -->
-<!-- ║  The SVG files (banner.svg, typing.svg) must live next to README.md    ║ -->
+<!-- ║   AKASH U — GitHub Profile README                                      ║ -->
+<!-- ║   Commit all 3 files: README.md + banner.svg + typing.svg              ║ -->
+<!-- ║   to the root of your uakash07/uakash07 repo on the main branch        ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════════╝ -->
 
-<!-- ══════════════════════════════════════════════════════ -->
-<!--  SECTION 1 · HERO BANNER  (animated SVG — local file) -->
-<!-- ══════════════════════════════════════════════════════ -->
-
+<!-- SECTION 1 · HERO BANNER (SMIL-animated SVG via raw URL) -->
 <div align="center">
-  <img src="./banner.svg" width="100%" alt="Akash U — AI & Data Science Engineer"/>
+  <img src="https://raw.githubusercontent.com/uakash07/uakash07/main/banner.svg"
+       width="100%" alt="Akash U Banner"/>
 </div>
 
-<!-- ══════════════════════════════════════════════════════ -->
-<!--  SECTION 2 · TYPING TERMINAL  (animated SVG — local)  -->
-<!-- ══════════════════════════════════════════════════════ -->
-
+<!-- SECTION 2 · TYPING ANIMATION (SMIL-animated SVG via raw URL) -->
 <div align="center">
-  <img src="./typing.svg" width="100%" alt="Typing animation"/>
+  <img src="https://raw.githubusercontent.com/uakash07/uakash07/main/typing.svg"
+       width="100%" alt="Typing animation"/>
 </div>
 
-<!-- ══════════════════════════════════════════════════════ -->
-<!--  SOCIAL LINKS                                          -->
-<!-- ══════════════════════════════════════════════════════ -->
-
+<!-- SOCIAL BADGES -->
 <div align="center">
 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akashu0713@gmail.com)
@@ -39,9 +32,7 @@
 
 ---
 
-<!-- ══════════════════════════════════════════════════════ -->
-<!--  SECTION 3 · CODE-BLOCK ABOUT ME                      -->
-<!-- ══════════════════════════════════════════════════════ -->
+<!-- SECTION 3 · CODE-BLOCK ABOUT ME -->
 
 <img align="right" width="360" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="Coding GIF"/>
 
@@ -67,7 +58,7 @@ class AkashU:
 
     genai = [
         "OpenAI API", "Google Gemini API",
-        "Claude AI", "RAG Basics",
+        "Claude AI", "RAG Pipelines",
         "Prompt Engineering",
     ]
 
@@ -78,7 +69,7 @@ class AkashU:
     ]
 
     fun_fact = (
-        "I predict F1 race strategies 🏎️  "
+        "I predict F1 race strategies 🏎️ "
         "before the pit-wall does — using "
         "telemetry data & Python."
     )
@@ -91,9 +82,7 @@ class AkashU:
 
 ---
 
-<!-- ══════════════════════════════════════════════════════ -->
-<!--  SECTION 4 · TECH STACK BADGES                        -->
-<!-- ══════════════════════════════════════════════════════ -->
+<!-- SECTION 4 · TECH STACK -->
 
 ## 🛠️ Tech Stack
 
@@ -140,9 +129,7 @@ class AkashU:
 
 ---
 
-<!-- ══════════════════════════════════════════════════════ -->
-<!--  SECTION 5 · GITHUB STATS                             -->
-<!-- ══════════════════════════════════════════════════════ -->
+<!-- SECTION 5 · GITHUB STATS -->
 
 ## 📊 GitHub Stats
 
@@ -150,7 +137,7 @@ class AkashU:
 
 <img src="https://github-readme-stats.vercel.app/api?username=uakash07&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=70A5FD&icon_color=BF91F3&text_color=C9D1D9&rank_icon=github&cache_seconds=86400" height="175" alt="GitHub Stats"/>
 &nbsp;&nbsp;
-<img src="https://streak-stats.demolab.com?user=uakash07&theme=tokyonight&hide_border=true&background=0D1117&stroke=70A5FD&ring=70A5FD&fire=BF91F3&currStreakLabel=BF91F3&dates=C9D1D9&sideLabels=C9D1D9&cache_seconds=86400" height="175" alt="GitHub Streak"/>
+<img src="https://streak-stats.demolab.com?user=uakash07&theme=tokyonight&hide_border=true&background=0D1117&stroke=70A5FD&ring=70A5FD&fire=BF91F3&currStreakLabel=BF91F3&dates=C9D1D9&sideLabels=C9D1D9" height="175" alt="GitHub Streak"/>
 
 <br/>
 
@@ -160,9 +147,7 @@ class AkashU:
 
 ---
 
-<!-- ══════════════════════════════════════════════════════ -->
-<!--  SECTION 6 · EXPERIENCE TIMELINE                      -->
-<!-- ══════════════════════════════════════════════════════ -->
+<!-- SECTION 6 · EXPERIENCE -->
 
 ## 💼 Professional Experience
 
@@ -171,7 +156,7 @@ class AkashU:
  │  🏛️  3D DESIGN INTERN — DDMRC, IIT Madras             May–Jun 2025     │
  ├─────────────────────────────────────────────────────────────────────────┤
  │  ▸ CAD modelling of mechanical assemblies (Fusion 360, SolidWorks)      │
- │  ▸ Rapid prototyping · tolerancing · engineering design workflows       │
+ │  ▸ Rapid prototyping · tolerancing · product development workflows      │
  │  ▸ Iterative design refinement with research team validation            │
  └─────────────────────────────────────────────────────────────────────────┘
  ┌─────────────────────────────────────────────────────────────────────────┐
@@ -184,16 +169,14 @@ class AkashU:
  ┌─────────────────────────────────────────────────────────────────────────┐
  │  🌐  WEB DEVELOPMENT INTERN — Codsoft                  May–Jun 2024    │
  ├─────────────────────────────────────────────────────────────────────────┤
- │  ▸ Built responsive calculator (HTML · CSS · JavaScript)               │
+ │  ▸ Built responsive web calculator (HTML · CSS · JavaScript)            │
  │  ▸ Real-time calculation · input validation · cross-browser support     │
  └─────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-<!-- ══════════════════════════════════════════════════════ -->
-<!--  SECTION 7 · FEATURED PROJECTS                        -->
-<!-- ══════════════════════════════════════════════════════ -->
+<!-- SECTION 7 · PROJECTS -->
 
 ## 🚀 Featured Projects
 
@@ -204,9 +187,9 @@ class AkashU:
 ### 🚗 Telemetry Driver Risk Profiling
 > `Python` `Scikit-Learn` `Pandas` `FastAPI`
 
-ML-powered system that ingests raw vehicle telemetry — speed, braking, RPM — and classifies driving into risk categories. End-to-end data pipelines with predictive models for real-time risk scoring.
+ML-powered system that ingests raw vehicle telemetry — speed, braking, RPM — and classifies driving into risk categories with end-to-end data pipelines.
 
-**Key:** Time-series signal analysis · Feature engineering · Risk classification
+**Key:** Time-series · Feature engineering · Risk classification
 
 </td>
 <td width="50%" valign="top">
@@ -214,9 +197,9 @@ ML-powered system that ingests raw vehicle telemetry — speed, braking, RPM —
 ### 🔋 EV Battery Health Prediction
 > `Python` `Pandas` `Scikit-Learn` `Plotly`
 
-Predictive model estimating EV battery degradation from charge cycles, temperature, and usage patterns. Early-warning detection of health decline for data-driven energy management.
+Predictive model estimating EV battery degradation from charge cycles, temperature, and usage patterns for early-warning detection.
 
-**Key:** Degradation forecasting · Feature extraction · Energy analytics
+**Key:** Degradation forecasting · Energy analytics
 
 </td>
 </tr>
@@ -226,7 +209,7 @@ Predictive model estimating EV battery degradation from charge cycles, temperatu
 ### 🏎️ Formula 1 Telemetry Analysis
 > `Python` `FastF1` `Pandas` `Plotly`
 
-Full analytics pipeline on large-scale F1 race telemetry. Lap time analysis, tyre degradation, pit-stop strategy modelling, and interactive driver-comparison dashboards.
+Full analytics pipeline on F1 race telemetry — lap times, tyre degradation, pit-stop strategy, and interactive driver comparison dashboards.
 
 **Key:** Race strategy insights · Time-series · Interactive viz
 
@@ -246,27 +229,23 @@ Production-ready browser calculator with real-time computation, robust input val
 
 ---
 
-<!-- ══════════════════════════════════════════════════════ -->
-<!--  SECTION 8 · ACHIEVEMENTS                             -->
-<!-- ══════════════════════════════════════════════════════ -->
+<!-- SECTION 8 · ACHIEVEMENTS -->
 
-## 🏆 Achievements & Competitive Coding
+## 🏆 Achievements
 
 <div align="center">
 
 | 🏅 Platform | Achievement |
 |:---|:---|
 | 🟡 **LeetCode** | **250+ problems solved** · Contest Rating **1785** · Top **~10%** globally |
-| 🟤 **CodeChef** | **50+ problems** across competitive challenges |
-| 🏛️ **IIT Madras** | Selected intern at **DDMRC** (Design & Digital Manufacturing Research Centre) |
+| 🟤 **CodeChef** | **50+ problems** solved across competitive challenges |
+| 🏛️ **IIT Madras** | Selected intern at **DDMRC** — Design & Digital Manufacturing Research Centre |
 
 </div>
 
 ---
 
-<!-- ══════════════════════════════════════════════════════ -->
-<!--  SECTION 9 · EDUCATION                                -->
-<!-- ══════════════════════════════════════════════════════ -->
+<!-- SECTION 9 · EDUCATION -->
 
 ## 🎓 Education
 
@@ -275,9 +254,7 @@ Production-ready browser calculator with real-time computation, robust input val
 
 ---
 
-<!-- ══════════════════════════════════════════════════════ -->
-<!--  SECTION 10 · CERTIFICATIONS                          -->
-<!-- ══════════════════════════════════════════════════════ -->
+<!-- SECTION 10 · CERTIFICATIONS -->
 
 ## 📜 Certifications
 
@@ -291,21 +268,17 @@ Production-ready browser calculator with real-time computation, robust input val
 
 ---
 
-<!-- ══════════════════════════════════════════════════════ -->
-<!--  SECTION 11 · ACTIVITY GRAPH                          -->
-<!-- ══════════════════════════════════════════════════════ -->
+<!-- SECTION 11 · ACTIVITY GRAPH -->
 
 ## 📈 Contribution Graph
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=uakash07&theme=tokyo-night&bg_color=0D1117&color=70A5FD&line=BF91F3&point=70A5FD&area=true&hide_border=true&cache_seconds=86400" width="100%" alt="Activity Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=uakash07&theme=tokyo-night&bg_color=0D1117&color=70A5FD&line=BF91F3&point=70A5FD&area=true&hide_border=true" width="100%" alt="Activity Graph"/>
 </div>
 
 ---
 
-<!-- ══════════════════════════════════════════════════════ -->
-<!--  SECTION 12 · VOLUNTEERING                            -->
-<!-- ══════════════════════════════════════════════════════ -->
+<!-- SECTION 12 · VOLUNTEERING -->
 
 ## 🤝 Leadership & Volunteering
 
@@ -316,9 +289,7 @@ Production-ready browser calculator with real-time computation, robust input val
 
 ---
 
-<!-- ══════════════════════════════════════════════════════ -->
-<!--  SECTION 13 · FOOTER                                  -->
-<!-- ══════════════════════════════════════════════════════ -->
+<!-- SECTION 13 · FOOTER -->
 
 <div align="center">
 
@@ -328,14 +299,14 @@ Production-ready browser calculator with real-time computation, robust input val
 
 <br/>
 
-[![Email](https://img.shields.io/badge/📧_akashu0713@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akashu0713@gmail.com)
+[![Email](https://img.shields.io/badge/akashu0713@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akashu0713@gmail.com)
 &nbsp;
 [![LinkedIn](https://img.shields.io/badge/Let's_Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/uakash07)
 
 <br/>
 
-![Wave](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
 </div>
 
-<!-- Made with ❤️ by Akash U · github.com/uakash07 -->
+<!-- Made with ❤️ by Akash U -->

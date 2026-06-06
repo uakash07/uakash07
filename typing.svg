@@ -1,80 +1,48 @@
-<svg fill="none" viewBox="0 0 860 70" width="860" height="70" xmlns="http://www.w3.org/2000/svg">
-<foreignObject width="100%" height="100%">
-<div xmlns="http://www.w3.org/1999/xhtml">
-<style>
-  * { margin:0; padding:0; box-sizing:border-box; }
+<svg viewBox="0 0 860 60" width="860" height="60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#70A5FD"/>
+      <stop offset="100%" stop-color="#BF91F3"/>
+    </linearGradient>
+  </defs>
 
-  .term {
-    width: 860px;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: transparent;
-  }
+  <!-- Background transparent -->
+  <rect width="860" height="60" fill="#0D1117"/>
 
-  .typing-wrap {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
-    font-weight: 700;
-    color: #70A5FD;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-  }
+  <!-- Prompt symbol -->
+  <text x="220" y="38" font-family="Courier New, Courier, monospace"
+    font-size="18" font-weight="700" fill="#6ee7b7">$</text>
 
-  .prompt { color: #6ee7b7; margin-right: 2px; }
+  <!-- Line 1: visible 0-5s -->
+  <text x="244" y="38" font-family="Courier New, Courier, monospace"
+    font-size="18" font-weight="700" fill="#70A5FD">
+    AI &amp; Data Science Engineer | IIT Madras Intern
+    <animate attributeName="fill-opacity" values="0;0;1;1;1;1;0;0" keyTimes="0;0.01;0.05;0.3;0.34;0.35;0.37;1" dur="20s" repeatCount="indefinite"/>
+  </text>
 
-  /* Each line fades in and types, then fades out in sequence */
-  .line {
-    display: inline-block;
-    overflow: hidden;
-    white-space: nowrap;
-    width: 0;
-    opacity: 0;
-  }
+  <!-- Line 2: visible 5-10s -->
+  <text x="244" y="38" font-family="Courier New, Courier, monospace"
+    font-size="18" font-weight="700" fill="#BF91F3">
+    F1 Telemetry · EV Analytics · ML Pipelines 🏎️
+    <animate attributeName="fill-opacity" values="0;0;0;0;1;1;1;1;0;0" keyTimes="0;0.01;0.24;0.25;0.27;0.3;0.49;0.5;0.52;1" dur="20s" repeatCount="indefinite"/>
+  </text>
 
-  /* Line 1 */
-  .l1 { animation: type1 2s steps(40,end) 0.5s forwards, fadeout 0.3s ease 5s forwards; color: #70A5FD; }
-  /* Line 2 */
-  .l2 { animation: type1 2s steps(40,end) 5.5s forwards, fadeout 0.3s ease 10s forwards; color: #BF91F3; position:absolute; }
-  /* Line 3 */
-  .l3 { animation: type1 2s steps(40,end) 10.5s forwards, fadeout 0.3s ease 15s forwards; color: #6ee7b7; position:absolute; }
-  /* Line 4 — loops back */
-  .l4 { animation: type1 2s steps(40,end) 15.5s forwards, fadeout 0.3s ease 20s forwards; color: #f9a8d4; position:absolute; }
+  <!-- Line 3: visible 10-15s -->
+  <text x="244" y="38" font-family="Courier New, Courier, monospace"
+    font-size="18" font-weight="700" fill="#6ee7b7">
+    Python · FastAPI · React · GenAI APIs 🤖
+    <animate attributeName="fill-opacity" values="0;0;0;0;1;1;1;1;0;0" keyTimes="0;0.01;0.49;0.5;0.52;0.55;0.74;0.75;0.77;1" dur="20s" repeatCount="indefinite"/>
+  </text>
 
-  @keyframes type1 {
-    0%   { width:0; opacity:1; }
-    100% { width:520px; opacity:1; }
-  }
-  @keyframes fadeout {
-    to { opacity:0; width:0; }
-  }
+  <!-- Line 4: visible 15-20s -->
+  <text x="244" y="38" font-family="Courier New, Courier, monospace"
+    font-size="18" font-weight="700" fill="#f9a8d4">
+    Turning Raw Data into Real Decisions 🚀
+    <animate attributeName="fill-opacity" values="0;0;0;0;1;1;1;1;0" keyTimes="0;0.01;0.74;0.75;0.77;0.8;0.98;0.99;1" dur="20s" repeatCount="indefinite"/>
+  </text>
 
-  .cursor {
-    display: inline-block;
-    width: 10px; height: 18px;
-    background: #70A5FD;
-    margin-left: 4px;
-    vertical-align: middle;
-    animation: blink 0.8s step-end infinite;
-  }
-  @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
-
-  .lines-container { position: relative; height: 26px; display:flex; align-items:center; }
-</style>
-<div class="term">
-  <div class="typing-wrap">
-    <span class="prompt">$</span>
-    <div class="lines-container">
-      <span class="line l1">AI &amp; Data Science Engineer | IIT Madras Intern 🏛️</span>
-      <span class="line l2">F1 Telemetry · EV Analytics · ML Pipelines 🏎️</span>
-      <span class="line l3">Python · FastAPI · React · GenAI APIs 🤖</span>
-      <span class="line l4">Turning Raw Data into Real Decisions 🚀</span>
-    </div>
-    <span class="cursor"></span>
-  </div>
-</div>
-</div>
-</foreignObject>
+  <!-- Blinking cursor -->
+  <rect x="640" y="20" width="10" height="20" fill="#70A5FD">
+    <animate attributeName="fill-opacity" values="1;1;0;0;1" keyTimes="0;0.4;0.5;0.9;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
 </svg>
