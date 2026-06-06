@@ -3,11 +3,48 @@
 <!-- ████████████████████████████████████████████████████████████████████████████████ -->
 
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!--  SECTION 1 · HERO BANNER                                                      -->
+<!--  SECTION 1 · HERO BANNER  (inline SVG — zero external dependency)             -->
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=AKASH%20U&fontSize=52&fontColor=fff&animation=twinkling&fontAlignY=36&desc=AI%20%26%20Data%20Science%20Engineer%20%7C%20Turning%20Raw%20Data%20into%20Real%20Decisions&descAlignY=62&descSize=17" width="100%" alt="Akash U Banner"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0f0c29"/>
+      <stop offset="50%"  stop-color="#1a1a4e"/>
+      <stop offset="100%" stop-color="#0d1b2a"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#70A5FD" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#BF91F3" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#BF91F3" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#70A5FD" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="900" height="200" fill="url(#bg)" rx="0"/>
+  <!-- Wave bottom layer -->
+  <path d="M0,160 C150,120 300,180 450,150 C600,120 750,170 900,140 L900,200 L0,200 Z" fill="url(#wave2)"/>
+  <!-- Wave top layer -->
+  <path d="M0,175 C120,145 280,195 450,165 C620,135 780,185 900,155 L900,200 L0,200 Z" fill="url(#wave1)"/>
+  <!-- Decorative dots -->
+  <circle cx="60"  cy="40" r="2" fill="#70A5FD" opacity="0.5"/>
+  <circle cx="840" cy="35" r="2" fill="#BF91F3" opacity="0.5"/>
+  <circle cx="120" cy="70" r="1.5" fill="#70A5FD" opacity="0.4"/>
+  <circle cx="780" cy="65" r="1.5" fill="#BF91F3" opacity="0.4"/>
+  <!-- Name -->
+  <text x="450" y="88" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="52" font-weight="800" letter-spacing="6"
+        fill="white" opacity="1">AKASH U</text>
+  <!-- Tagline -->
+  <text x="450" y="122" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="15" font-weight="400" letter-spacing="1.5"
+        fill="#A8C8FF" opacity="0.9">AI &amp; Data Science Engineer  ·  Turning Raw Data into Real Decisions</text>
+  <!-- Bottom accent line -->
+  <line x1="340" y1="138" x2="560" y2="138" stroke="#70A5FD" stroke-width="1.5" opacity="0.5"/>
+</svg>
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
@@ -153,13 +190,17 @@ class AkashU:
 
 ## 📊 GitHub Stats
 
+<!-- Stats card — anuraghazra with cache busting for reliability -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=uakash07&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=70A5FD&icon_color=BF91F3&text_color=C9D1D9&rank_icon=github" height="185" alt="Akash's GitHub Stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=uakash07&theme=tokyonight&hide_border=true&background=0D1117&stroke=70A5FD&ring=70A5FD&fire=BF91F3&currStreakLabel=BF91F3" height="185" alt="Akash's GitHub Streak"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=uakash07&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=70A5FD&icon_color=BF91F3&text_color=C9D1D9&rank_icon=github&cache_seconds=86400" height="180" alt="Akash's GitHub Stats"/>
+  &nbsp;
+  <!-- Streak — demolab.com (same infrastructure as the working typing SVG above) -->
+  <img src="https://streak-stats.demolab.com?user=uakash07&theme=tokyonight&hide_border=true&background=0D1117&stroke=70A5FD&ring=70A5FD&fire=BF91F3&currStreakLabel=BF91F3&dates=C9D1D9&sideLabels=C9D1D9" height="180" alt="Akash's GitHub Streak"/>
 </p>
 
+<!-- Top Languages -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=uakash07&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=70A5FD&text_color=C9D1D9&langs_count=8" height="175" alt="Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=uakash07&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=70A5FD&text_color=C9D1D9&langs_count=8&cache_seconds=86400" height="170" alt="Top Languages"/>
 </p>
 
 ---
@@ -356,7 +397,18 @@ Developed a responsive browser-based calculator with real-time calculation funct
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%" alt="Footer Wave"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="120" viewBox="0 0 900 120">
+  <defs>
+    <linearGradient id="footerbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0d1b2a"/>
+      <stop offset="50%"  stop-color="#1a1a4e"/>
+      <stop offset="100%" stop-color="#0f0c29"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="120" fill="url(#footerbg)"/>
+  <path d="M0,0 C150,40 300,10 450,30 C600,50 750,15 900,35 L900,0 Z" fill="#0D1117" opacity="0.5"/>
+  <path d="M0,0 C200,50 400,20 600,40 C750,55 850,25 900,45 L900,0 Z" fill="#70A5FD" opacity="0.08"/>
+</svg>
 </p>
 
 <!-- ████████████████████████████████████████████████████████████████████████████████ -->
